@@ -1,9 +1,9 @@
 [Unit]
-Type=simple
 Description=Consul Client
 After=network.target
 
 [Service]
+Type=simple
 User=consul
 Group=consul
 Environment="GOMAXPROCS=2"
