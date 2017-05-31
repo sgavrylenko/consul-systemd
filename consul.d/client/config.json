@@ -1,6 +1,6 @@
 {
             "server": false,
-            "ui":true,
+            "ui": true,
             "datacenter": "$DC_NAME",
             "advertise_addr": "$LOCAL_IP",
             "client_addr": "$LOCAL_IP",
