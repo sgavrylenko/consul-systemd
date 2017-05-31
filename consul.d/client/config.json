@@ -1,0 +1,10 @@
+{
+            "server": false,
+            "datacenter": "$DC_NAME",
+            "advertise_addr": "$LOCAL_IP",
+            "client_addr": "$LOCAL_IP",
+            "data_dir": "$DATA_PATH",
+            "log_level": "INFO",
+            "enable_syslog": true,
+            "start_join": ["$CONSUL_SRV1", "$CONSUL_SRV2", "$CONSUL_SRV3"]
+}

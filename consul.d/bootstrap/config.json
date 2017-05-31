@@ -1,0 +1,9 @@
+{
+        "bootstrap": true,
+        "server": true,
+        "datacenter": "$DC_NAME",
+        "data_dir": "$DATA_PATH",
+        "log_level": "INFO",
+        "advertise_addr": "$LOCAL_IP",
+        "enable_syslog": true
+}
